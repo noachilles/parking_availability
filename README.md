@@ -7,6 +7,7 @@
 
 ## 기획의도
 CCTV 영상을 기반으로 이미지 탐색(detection) 모델을 학습시켜 탐색하고 결과를 사용자 앱에 표시해 사용자 편리를 추구함  
+<img width="959" alt="fig1" src="https://github.com/noachilles/TIL/assets/74445032/0aa1267a-035a-4ed9-8139-cd108c2d0ff8">
 (fig 1. 설계 과정 이미지)
 
 ## 제작 과정-딥러닝
