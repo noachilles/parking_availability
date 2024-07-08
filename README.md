@@ -22,13 +22,17 @@ CCTV 적용을 목적으로 OpenCV를 이용해 Grayscale, Blur, Noise가 첨가
 
 ### 딥러닝 모델 학습
 NVIDIA V100 그래픽으로 학습 진행, 영상 속 실시간 객체 검출이 가능한 YOLOv5 모델을 활용  
+![fig3](https://github.com/noachilles/TIL/assets/74445032/9a8daf32-97ae-4f89-8b96-83d93c6de66b)
 (fig 3. 모델 학습 loss 그래프)  
+![fig4](https://github.com/noachilles/TIL/assets/74445032/015d75dd-df48-4df4-b469-7f2fa309ad55)
 (fig 4. 모델 학습 예시 이미지)
 
 ## 제작 과정-기능 구현  
 ### [실시간 검출]()
 학습된 모델을 활용해 영상 속 주차공간에 대한 주차 여부 파악해 색상으로 가시적으로 표시함  
+<img width="391" alt="fig5" src="https://github.com/noachilles/TIL/assets/74445032/03294d92-904a-4e31-8b58-517159fc0321">
 (fig 5. 모델 학습 실시간 검출 이미지 (점))  
+![fig6](https://github.com/noachilles/TIL/assets/74445032/0b01a2bc-348e-46ef-87fe-9ae20d395f8a)
 (fig 6. 모델 학습 실시간 검출 이미지 (공간 색깔))
 
 ### [Application 연동]()
